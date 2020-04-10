@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/overview/overview",
+    "pages/my/my",
+    "pages/InspectionControl/InspectionControl",
+    "pages/dome/test",
+    "pages/faultManagement/faultManagement",
+    "pages/groupChat/communications",
+    "pages/groupChat/groupChat",
+    "pages/groupChat/startChatting",
+    "pages/faultClaim/faultClaim",
+    "pages/template/getUserInfo"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",   
+    "navigationBarBackgroundColor": "#2888D4",
+    "navigationBarTitleText": "wechat",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

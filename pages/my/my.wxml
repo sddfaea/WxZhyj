@@ -1,0 +1,32 @@
+<view class="box">
+    <!-- 我的作业 -->
+    <view class="myWork">
+        <view class='blueLeft'></view>
+        <view class='title'>我的作业</view>
+        <view class="circle" >
+            <view ><view id="smile" class="smile_red">5</view>故障</view>
+            <view ><view id="smile" class="smile_red">5</view>缺陷</view>
+            <view ><view id="smile" class="smile_red">5</view>异常</view>
+            <view ><view id="smile" class="smile_red">5</view>其他</view>
+            </view>
+    </view>
+    <!-- 相关消息 -->
+    <view class="relatedNews">
+        <view class='blueLeft'></view>
+        <view class='title'>相关消息</view>
+        <view class="block">
+            <view >战线名称</view>
+            <view >设备警告</view>
+        </view>
+    </view>
+     <!-- 我的申请 -->
+    <view class="myApply">
+        <view class='blueLeft'></view>
+        <view class='title'>我的申请</view>
+        <view class="circle">
+            <view >待审核</view>
+            <view >已审核</view>
+            <view >未审核</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "故障管理",
+  "navigationBarBackgroundColor":"#108ee9",
+  "enablePullDownRefresh": true
+}

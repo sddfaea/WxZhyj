@@ -1,0 +1,144 @@
+.box{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.box .myWork{
+    padding-top: 20rpx;
+    width: 680rpx;
+    height: 250rpx;
+    margin: auto;
+    margin-top: 50rpx ;
+    background-color: #FFFFFF;
+    border-radius:20rpx ;
+    position: relative;
+    border: 1px solid #F9F9F9;
+}
+
+.box .myWork .blueLeft{
+    width: 20rpx;
+    height: 100%;
+    background: #4095FF;
+    border-radius:20rpx 0rpx 0rpx 20rpx ;
+    position: absolute;
+    top:0
+}
+
+.box .myWork .title{
+    font-size: 30rpx;
+    margin-left: 50rpx;
+}
+
+.circle{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50rpx;
+}
+.smile_red{
+position: absolute;
+width: 40rpx;
+height: 40rpx;
+background: red;
+right: -5px;
+top: -5px;
+border-radius: 50%;
+text-align: center;
+line-height: 43rpx;
+}
+.box .myWork .circle >view{
+    width: 100rpx;
+    height: 100rpx;
+    background: #2888D4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 26rpx;
+    color: #fff;
+    position: relative;
+}
+
+.box .relatedNews{
+    padding-top: 20rpx;
+    width: 680rpx;
+    height: 150rpx;
+    margin: auto;
+    margin-top: 50rpx ;
+    background-color: #FFFFFF;
+    border-radius:20rpx ;
+    position: relative;
+    border: 1px solid #F9F9F9;
+}
+
+.box .relatedNews .blueLeft{
+    width: 20rpx;
+    height: 100%;
+    background: #4095FF;
+    border-radius:20rpx 0rpx 0rpx 20rpx ;
+    position: absolute;
+    top:0
+}
+
+.box .relatedNews .title{
+    font-size: 30rpx;
+    margin-left: 50rpx;
+}
+
+.box .relatedNews .block{
+    display: flex;
+    margin-top: 30rpx;
+}
+
+.box .relatedNews .block view{
+    width: 160rpx;
+    height: 40rpx;
+    background: #2888D4;
+    font-size: 30rpx;
+    margin-left: 50rpx;
+    text-align: center;
+    color: white;
+}
+
+.box .myApply{
+    padding-top: 20rpx;
+    width: 680rpx;
+    height: 250rpx;
+    margin: auto;
+    margin-top: 50rpx ;
+    background-color: #FFFFFF;
+    border-radius:20rpx ;
+    position: relative;
+    border: 1px solid #F9F9F9;
+}
+
+.box .myApply .blueLeft{
+    width: 20rpx;
+    height: 100%;
+    background: #4095FF;
+    border-radius:20rpx 0rpx 0rpx 20rpx ;
+    position: absolute;
+    top:0
+}
+
+.box .myApply .title{
+    font-size: 30rpx;
+    margin-left: 50rpx;
+}
+
+.box .myApply .circle{
+    display: flex;
+    margin-top: 50rpx;
+}
+
+.box .myApply .circle view{
+    width: 100rpx;
+    height: 100rpx;
+    background: #2888D4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 26rpx;
+    color: #fff;
+    margin-left: 50rpx;
+}

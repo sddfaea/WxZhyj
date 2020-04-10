@@ -1,0 +1,50 @@
+/* pages/InspectionControl/InspectionControl.wxss */
+
+.box{
+    background-color: #EEEEEE;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    width: 650rpx;
+    height: 260rpx;
+    margin: auto;
+    margin-top: 50rpx ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10rpx;
+}
+
+.fonts{
+    margin-left:50rpx ;
+    margin-top: 20rpx;
+    font-size: 35rpx;
+    font-family: '黑体';
+}
+
+.bottomBar{
+    position: fixed;
+    bottom: 0;
+    height: 100rpx;
+    width: 100%;
+    background: #CDCDCD;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+.bottomBar .image{
+    width: 50rpx;
+    height: 50rpx;
+    background: red;
+}
+
+.content view:last-child{
+    margin-bottom: 20rpx;
+}

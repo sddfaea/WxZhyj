@@ -1,0 +1,161 @@
+.box{
+  width: 90%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 2800rpx;
+  margin: 0 auto;
+  align-items: center;
+}
+.column{
+  width: 95%;
+  height: 400rpx;
+}
+.column,.column2,.jd,.pie{
+  box-shadow: 0 1px 3px 1px #e6e6e6;
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.column2{
+  width: 95%;
+  height: 800rpx;
+}
+.pie{
+  width: 95%;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: #3399ff;
+}
+.tou{
+  width: 100%;
+  height: 15%;
+  background-color: #ffffff;
+}
+.tou text{
+  font-size: 31rpx;
+  font-weight: bold;
+  margin-left: 12rpx;
+}
+.xia{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+.xiapie{
+  width: 30%;
+  height: 100%;
+}
+.c{
+  width: 100%;
+  height: 400rpx;
+  background-color: rgb(221, 214, 214);
+}
+.d{
+  width: 100%;
+  height: 400rpx;
+  background-color: rgb(63, 7, 7);
+}
+.e{
+  width: 100%;
+  height: 400rpx;
+  background-color: rgb(139, 22, 22);
+}
+.tile{
+  font-size: 26rpx;
+  margin-left: 22rpx;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.gz{
+  width: 100%;
+  height: 150rpx;
+  border-radius: 25rpx;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  box-shadow:1px 1px 1px 1px #e6e6e6;
+}
+.gz .gzwz{
+  height: 100%;
+  width: 96%;
+  display: flex;
+  align-items: center;  
+}
+.gz .gzys{
+  width: 4%;
+  height: 100%;
+  background-color: #3399ff;
+}
+.gz .gzbt{
+  margin-left: 20rpx;
+  color: #3399ff;
+}
+.pietou{
+  width: 100%;
+  height: 5%;
+  background-color: #3399ff;
+}
+.pietou2{
+  width: 100%;
+  height: 3%;
+  background-color: #3399ff;
+}
+.piewei{
+  width: 100%;
+  height: 95%;
+}
+.progress{
+  width: 43%;
+}
+.con{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.text1{
+  position: relative;
+  left: -55rpx;
+}
+.text2{
+  position: relative;
+  left: 55rpx;
+}
+.icon{
+  width: 14%;
+  height: 50rpx;
+  background-color: #b266ff;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jd text{
+  font-size: 30rpx;
+}
+.jd{
+  width: 95%;
+  height: 400rpx;
+}
+
+.gzzsb{
+  font-size: 31rpx;
+  font-weight: bold;
+  margin-left: 12rpx;
+}
+.gzzsbx{
+  width: 100%;
+  height: 97%;
+  background-color: #ffffff;
+}
+.wenz{
+  display: flex;
+  justify-content: space-around;
+}

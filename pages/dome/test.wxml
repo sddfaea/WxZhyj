@@ -1,0 +1,29 @@
+<view class="box">
+  <view class="con">
+      <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+      <view class="icon"><text>100kV</text></view>
+      <text class="text2">7</text>
+      <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+  </view>
+    <view class="con">
+      <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+      <view class="icon"><text>100kV</text></view>
+      <text class="text2">7</text>
+      <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+  </view>
+    <view class="con">
+      <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+      <view class="icon"><text>100kV</text></view>
+      <text class="text2">7</text>
+      <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+  </view>
+    <view class="con">
+      <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+      <view class="icon"><text>100kV</text></view>
+      <text class="text2">7</text>
+      <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+  </view>
+  <view>
+    <text style="margin-left: 25%;">主变</text><text style="margin-left: 9%;">电压等级</text><text style="margin-left: 9%;">线路</text>
+  </view>
+</view> 

@@ -1,0 +1,202 @@
+<!--index.wxml-->
+<include src="../template/getUserInfo" />
+ <view style="height: 600px;display: flex;flex-direction:column;">
+    <view class="zuCss">
+        <view style="width:100%;height: 35%;">
+           <view class="shure">
+            <icon type="search" size="30" style="margin-left: 10rpx;"></icon>
+            <input style="height: 77rpx;position: absolute;right: 0rpx;width: 85%;" type="text"></input>
+           </view>
+        </view>
+        <view style="flex:1;width:100%;height: 50%;">
+          <view class="lingzong" style="margin-top: 25rpx;">
+                <view class="supline" bindtap="tz" id="zhonglan" hover-class="line_hover">
+                  <view class="lineshang">
+                    <view class="line">
+                      <image src="../../imgs/yidongyunkongzhitaiicon01.png" mode="aspectFit" class="img"></image>
+                    </view>
+                  </view>
+                  <view class="linexia">
+                    <text class="ziti">总览</text>
+                  </view>
+              </view>
+              <view class="supline"  bindtap="zuye" id="rb" hover-class="line_hover">
+                <view  class="lineshang">
+                    <view class="line" hover-class="line_hover">
+                    <image src="../../imgs/ribaotongji.png" mode="aspectFit" class="img"></image>
+                    </view>
+                </view>
+                <view class="linexia">
+                    <text class="ziti">日报管理</text>
+                </view>
+              </view>
+              <view class="supline" hover-class="line_hover">
+                <view  class="lineshang">
+                    <view class="line" hover-class="line_hover">
+                    <image src="../../imgs/ziyuan.png" mode="aspectFit" class="img"></image>
+                    </view>
+                </view>
+                <view class="linexia">
+                    <text class="ziti">资源共享</text>
+                </view>
+              </view>
+              <view class="supline" hover-class="line_hover">
+                <view  class="lineshang">
+                    <view class="line" hover-class="line_hover">
+                    <image src="../../imgs/shipin.png" mode="aspectFit" class="img"></image>
+                    </view>
+                </view>
+                <view class="linexia">
+                    <text class="ziti">视频会商</text>
+                </view>
+              </view>
+          </view>
+        </view>  
+    </view>
+    <view style="flex-direction:column;display:flex;height:90%">
+      <view style="height: 30%;">
+        <view style="margin-top:19rpx;line-height:40rpx;flex-direction:row;display:flex;">
+            <view style="height:44rpx;width:7rpx;margin-left:13px;background-color:#2a5caa"></view>
+            <view style="flex:1;margin-left:20rpx;">移动作业</view>
+        </view>
+        <view class="lingzong" style="height: 55%;">
+            <view id="gzgl" class="supline"  hover-class="line_xia" bindtap="tz">
+              <view  class="lineshang">
+                  <view class="line">
+                  <image src="../../imgs/guzhang.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">故障管理</text>
+              </view>
+            </view>
+            <view id="quexian"  class="supline" hover-class="line_xia" bindtap="tz">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/quxian.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">缺陷管理</text>
+              </view>
+            </view>
+            <view class="supline"  bindtap="tz" id="ycgl" hover-class="line_hover">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/kaoqinyichang.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">异常管理</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/qita.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">其他</text>
+              </view>
+            </view>
+        </view>
+      </view>
+     <view style="height: 30%;">
+        <view style="margin-top:19rpx;line-height:40rpx;flex-direction:row;display:flex;">
+            <view style="height:44rpx;width:7rpx;margin-left:13px;background-color:#2a5caa"></view>
+            <view style="flex:1;margin-left:20rpx;">作业情况</view>
+        </view>
+        <view class="lingzong" style="height: 55%;">
+            <view class="supline">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/xianlu.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">线路运行</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/xianchangfuwu.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">作业现场</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/jihua.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">作业计划</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view  class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/risk.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">作业风险</text>
+              </view>
+            </view>
+        </view>
+     </view>
+     <view style="height: 30%;">
+        <view style="margin-top:19rpx;line-height:40rpx;flex-direction:row;display:flex;">
+            <view style="height:44rpx;width:7rpx;margin-left:13px;background-color:#2a5caa"></view>
+            <view style="flex:1;margin-left:20rpx;">我的审批</view>
+        </view>
+        <view class="lingzong" style="height: 55%;">
+            <view class="supline">
+              <view class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/daishenhe.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">待审批</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/yishenhe.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">已审批</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/tongguo.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                  <text class="ziti">已通过</text>
+              </view>
+            </view>
+            <view class="supline">
+              <view class="lineshang">
+                  <view class="line" hover-class="line_xia">
+                  <image src="../../imgs/dkw_weitongguo.png" mode="aspectFit" class="img"></image>
+                  </view>
+              </view>
+              <view class="linexia">
+                 <text class="ziti">未通过</text>
+              </view>
+            </view>
+        </view>
+       </view>
+     </view>
+ </view>

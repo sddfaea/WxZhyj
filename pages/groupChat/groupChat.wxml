@@ -1,0 +1,66 @@
+<view class="box">
+<view style="height: 5%;background-color: #108ee9;">
+  <view bindtap="quding" class="queren">
+    <text style="font-size: 30rpx;">确定</text>
+  </view>
+</view>
+  <view style="width: 90%;margin: auto;">
+    <view class="in">
+      <icon type="search"></icon>
+      <input></input>
+    </view>
+    <view class="xian"></view> 
+    <view bindtap="xuanzun"><text style="font-size: 30rpx;">选择一个群</text></view>
+    <view class="xian"></view> 
+
+      <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">张三</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">李四</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">王五</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">赵六</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">唐七</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">黄蓉</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">张权</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">亮哥</text>
+        <view class="ck"><checkbox></checkbox></view>
+      </view>
+      <view class="xian"></view> 
+    </view>
+</view> 
+

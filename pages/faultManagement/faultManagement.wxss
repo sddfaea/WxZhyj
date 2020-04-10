@@ -1,0 +1,63 @@
+.box{
+    background: #F2F2F2;
+    width: 100%;
+}
+
+.box .content{
+    padding-top:20rpx ;
+    width: 700rpx;
+    margin: auto;
+    margin-top: 20rpx ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box .content .fonts{
+    margin-left:50rpx ;
+    margin-top: 20rpx;
+    font-size: 35rpx;
+    font-family: '黑体';
+}
+.tanchu{
+    width: 220rpx;
+    height: 180rpx;
+    background-color: #333333;
+    z-index: auto;
+    position: fixed;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10rpx;
+    margin-top: 11rpx;
+}
+.xian{
+    width: 140rpx;
+    height: 0.1rpx;
+    background: #e6e6e6;
+    margin:0 auto;
+}
+.tanchu text{
+    font-size: 26rpx;
+    color: #ffffff;
+}
+.sanjiao{
+    height: 18rpx;
+    width: 166rpx;
+    justify-content: center;
+    display: flex;
+    margin-top: -5rpx;
+    position: absolute;
+}
+.ims{
+    width: 50rpx;
+    height: 50rpx;
+    margin-left: 60rpx;
+    position: absolute;
+    top: 3rpx;
+}
+.s{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

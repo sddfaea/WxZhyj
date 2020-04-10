@@ -1,0 +1,42 @@
+<view class="box">
+    <view id="zy" bindtap="dianj" style="height:{{height}}" class="zhuye">
+        <view hidden="{{display}}">
+          <view style="display: flex;">
+            <image src="../../imgs/touxiang.png" class="ims" style="  margin-top: 57rpx;"></image>
+            <view class="liaotian1">
+                <text style="font-size:35rpx">张三</text>
+                <view class="leirong"><text style="font-size:35rpx">信息信息信息信息信息信息信息信息</text></view>
+            </view>
+          </view>
+          <view style="display: flex;flex-direction: row;justify-content: flex-end;">
+            <view class="liaotian">
+                <text style="font-size:34rpx">李四</text>
+                <view class="leirong"><text style="font-size:35rpx">{{msg}}</text></view>
+            </view>
+            <image src="../../imgs/touxiang.png" class="ims" style="  margin-top: 57rpx;"></image>
+          </view>
+        </view>
+    </view>
+    <view id="xy" class="shour">
+      <view class="jz"><image src="../../imgs/4.png" mode="aspectFit" class="ims"></image></view>
+      <view class="shuru">
+              <input value="{{value}}" adjust-position='{{false}}' bindconfirm="send" style="width: 80%;height: 100%;" confirm-type="send" confirm-hold="true" bindfocus="inputFocus" bindblur="inputBlur"></input>
+              <view class="jz"><image src="../../imgs/1.png" mode="aspectFit" class="imsshou"></image></view>
+      </view>
+      <view id="zhankai" data-postId="{{postid}}" bindtap="dianj" class="jz" style="left: -10rpx;margin-left: 40rpx;"><image style="margin-left: -3rpx;" src="../../imgs/5.png" mode="aspectFit" class="ims"></image></view>
+    </view>
+    <view class="tc">
+        <view class="zuo">
+          <view class="lei">
+          <image src="../../imgs/2.png" class="imsx"></image>
+          </view>
+          <text class="wenzi">拍摄</text>
+        </view>
+        <view class="you">
+          <view class="lei">
+          <image src="../../imgs/3.png" class="imsx"></image>
+          </view>
+          <text class="wenzi">文件</text>
+        </view>
+    </view> 
+</view>

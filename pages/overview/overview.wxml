@@ -1,0 +1,71 @@
+<scrol-view scroll-y scroll-with-animation enable-back-to-top 
+upper-threshold="50" lower-threshold="50" scroll-top="20" class="box">
+  <view class="gz">
+    <view class="gzys"></view>
+    <view class="gzwz"><text class="gzbt">故障管理</text></view>
+  </view>
+  <view class="pie">
+    <view class="pietou"></view>
+    <view class="tou"><text>专业统计</text></view>
+      <view class="xia">
+        <view class="xiapie">
+          <ec-canvas type="2D" id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ pie }}"></ec-canvas>
+        </view>
+        <view class="xiapie">
+          <ec-canvas type="2D" id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ pie1 }}"></ec-canvas>
+        </view>
+        <view class="xiapie">
+          <ec-canvas type="2D" id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ pie2 }}"></ec-canvas>
+        </view>
+    </view>
+  </view>
+  <view class="column">
+    <view class="pietou"></view>
+    <view class="piewei">
+    <ec-canvas type="2D" id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+    </view>
+  </view>
+  <view class="column2">
+    <view  class="pietou2"></view>
+    <view  style="width: 100%;height: 97%;background-color: #ffffff;">
+    <ec-canvas type="2D" id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec1 }}"></ec-canvas>
+    </view>
+  </view>
+  <view class="gz">
+    <view class="gzys"></view>
+    <view class="gzwz"><text class="gzbt">过重载</text></view>
+  </view>
+  <view class="jd">
+    <view  class="pietou"></view>
+    <view class="gzzsbx">
+      <view><text class="gzzsb">过重载设备</text></view>
+    <view class="con">
+      <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+      <view class="icon"><text>100kV</text></view>
+      <text class="text2">7</text>
+      <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+    </view>
+    <view class="con">
+          <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+          <view class="icon"><text>100kV</text></view>
+          <text class="text2">7</text>
+          <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+      </view>
+        <view class="con">
+          <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+          <view class="icon"><text>100kV</text></view>
+          <text class="text2">7</text>
+          <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+      </view>
+        <view class="con">
+          <progress stroke-width="1" border-radius="10" activeColor="#d9d9d9" backgroundColor="#3399ff" class="progress" percent="40" stroke-width='15'><text class="text1">7</text></progress>
+          <view class="icon"><text>100kV</text></view>
+          <text class="text2">7</text>
+          <progress border-radius="10" activeColor="#cc66ff" backgroundColor="#d9d9d9" class="progress" percent="40" stroke-width='15'></progress>
+      </view>
+      <view class="wenz">
+        <text>主变</text><text>电压等级</text><text>线路</text>
+      </view>
+    </view>
+  </view>
+</scrol-view> 

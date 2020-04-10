@@ -1,0 +1,50 @@
+<view class="box">
+  <view style="height: 5%;background-color: #108ee9;">
+    <view class="queren">
+      <icon type="search" color="#ffffff"></icon>
+    </view>
+  </view>
+  <view style="width: 90%;margin: auto;"> 
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群1</text>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群2</text>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群3</text>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群4</text>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群5</text>
+      </view>
+
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群6</text>
+      </view>
+      <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群7</text>
+      </view>
+     <view class="xian"></view> 
+        <view class="persion">
+        <image src="../../imgs/touxiang.png" style="height: 70rpx;width: 70rpx;"></image>
+        <text class="name">群8</text>
+      </view>
+  </view>
+</view>

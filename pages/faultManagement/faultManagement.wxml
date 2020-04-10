@@ -1,0 +1,25 @@
+<scroll-view scroll-y='true' scroll-with-animation='true' class="box">
+        <view style="height: 5%;background-color: #108ee9;">
+            <image id="faqi" data-postId="{{postId}}" bindtap="dianji" src="../../imgs/xuanz.png" mode="aspectFit" class="ims"></image>
+            <icon style="margin-left: 130rpx;" type="search" color="#ffffff" size="25"></icon>
+            <view class="sanjiao" style="display:{{display=='1'?'flex':'none'}}">
+            <image src="../../imgs/sanjiao.png"  mode="aspectFit" style="width: 30rpx;height: 30rpx;"></image>
+            </view>
+            <view class="tanchu" style="display:{{display=='1'?'flex':'none'}}">
+                <view hover-class="line_hover" id="qunliao" bindtap="dianji" class="s"><text>发起群聊</text></view>
+                <view class="xian" style="position: absolute;top: 85rpx;left: 45rpx;"></view> 
+                <view hover-class="line_hover" id="guzhang" bindtap="dianji" class="s"><text>故障认领</text></view>
+                
+        </view>
+    </view>
+    <block wx:for="{{articles}}">    
+        <template is="msgItem" data="{{...item}}"></template>
+    </block>    
+    <template name="msgItem">
+        <view class='content'>
+            <view class="fonts">{{name}}</view>
+            <view class="fonts" style="margin-top: 15rpx;">故障描述：{{address}}</view>
+            <view class="fonts" style="margin-bottom: 20rpx;margin-top: 10rpx;">{{time}}</view>
+        </view>
+    </template>
+</scroll-view>

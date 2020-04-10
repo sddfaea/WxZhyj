@@ -1,0 +1,27 @@
+<!-- pages/InspectionControl/InspectionControl.wxml -->
+<view class="box">
+    <view class="content">
+        <view class="fonts">500kV巴南变电站5011.5012开关</view>
+        <view class="fonts">故障描述：开关跳闸</view>
+        <view class="fonts">电压等级：500kV</view>
+        <view class="fonts">2019-01-11 17：55</view>
+    </view>
+    <view class="content">
+        <view class="fonts">500kV巴南变电站5011.5012开关</view>
+        <view class="fonts">故障描述：开关跳闸</view>
+        <view class="fonts">电压等级：500kV</view>
+        <view class="fonts">2019-01-11 17：55</view>
+    </view>
+    <view class="content">
+        <view class="fonts">500kV巴南变电站5011.5012开关</view>
+        <view class="fonts">故障描述：开关跳闸</view>
+        <view class="fonts">电压等级：500kV</view>
+        <view class="fonts">2019-01-11 17：55</view>
+    </view>
+    <view class='bottomBar'>
+        <view class="image"></view>
+        <view>最新动态</view>
+        <view>智慧运检</view>
+        <view>其他</view>
+    </view>
+</view>

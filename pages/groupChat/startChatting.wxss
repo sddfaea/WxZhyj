@@ -1,0 +1,33 @@
+.box{
+  position: fixed;
+  background: #F2F2F2;
+  width: 100%;
+  height: 100%;
+}
+.xian{
+  margin-top: 7px;
+  width: 100%;
+  height: 1px;
+  background: #e6e6e6;
+  margin: auto;
+  margin-top: 12rpx;
+}
+.persion{
+  flex-direction: row;
+  display: flex;
+  height: 70rpx;
+  margin-top: 20rpx;
+}
+.name{
+  margin-top: 10rpx;
+  margin-left: 35rpx;
+}
+.queren{
+  width: 100rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 1rpx;
+  left: 80%;
+  display: flex;
+  justify-content: center;
+}

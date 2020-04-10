@@ -1,0 +1,72 @@
+<view class="box">
+    <view class="tops">
+        <view bindtap="showdi" class="one">
+            <text style="color:{{color}};">10</text>
+            <text style="color:{{color}};">未认领</text>
+            <view style="background-color:{{ backgroundcolor}};" class="hen"></view> 
+        </view>
+        <view class="xian"></view> 
+        <view bindtap="showdi2" class="one">
+            <text style="color:{{color2}};">17</text>
+            <text style="color:{{color2}};">已认领</text>
+            <view style="background-color:{{ backgroundcolor2}};" class="hen"></view> 
+        </view>
+    </view>
+    <view style="display:{{display=='1'?'block':'none'}}">
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关</view>
+            <view class="fonts">
+               <text class="zt">故障描述：开关跳闸</text>  
+               <view class="rl"><text>认领</text></view>
+            </view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关</view>
+            <view class="fonts">
+               <text class="zt">故障描述：开关跳闸</text>  
+               <view class="rl"><text>认领</text></view>
+            </view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关</view>
+            <view class="fonts">
+                <text class="zt">故障描述：开关跳闸</text>  
+               <view class="rl"><text>认领</text></view>
+            </view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关</view>
+            <view class="fonts">
+                <text class="zt">故障描述：开关跳闸</text>  
+               <view class="rl"><text>认领</text></view>
+            </view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+    </view>
+
+     <view style="display:{{display2=='1'?'block':'none'}}">
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关AAA</view>
+            <view class="fonts">故障描述：开关跳闸AAA</view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关AAA</view>
+            <view class="fonts">故障描述：开关跳闸AAA</view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关</view>
+            <view class="fonts">故障描述：开关跳闸</view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+        <view class='content'>
+            <view class="fonts">500kV巴南变电站5011.5012开关</view>
+            <view class="fonts">故障描述：开关跳闸</view>
+            <view class="fonts">2019-01-11 17:55</view>
+        </view>
+    </view>
+</view>
